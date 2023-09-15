@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+
+    background-image: url(image/sky-background.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+em{
+    color: red;
+}
+.movie-container {
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    width: 80vw;
+    height: 85vh;
+    border: 7px solid rgba(38, 197, 233, 0.5);
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #2596be 21%, #bfe7f9 70%);
+    overflow: hidden;
+    opacity: 90%;
+}
+
+.movie-detail-container {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-name {
+    text-shadow: 10px 10px #df009d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140px;
+    font-weight: 30px;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-top: 24px;
+    right: 14%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 18px;
+    width: auto;
+    display: block;
+    float: left;
+    margin-right: 6px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.movie-description {
+    padding-bottom: 32px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 53%;
+    font-size: 19px;
+    font-family: 'M PLUS 1', sans-serif;
+    letter-spacing: 1px;
+    text-indent: 10%;
+    text-align: justify;
+}
+
+.plot {
+    color: #df009d;
+    text-decoration: none;
+}
+
+.plot:hover {
+    color: #2596be;
+}
+
+.plot :link {
+    color: #bfe7f9;
+}
+
+.button {
+    display: flexbox;
+    margin-top: 10%;
+    padding: 10px 10px;
+    bottom: 5%;
+    left: 75%;
+    margin-right: 20%;
+    max-width: 100%;
+    border: 2px solid whitesmoke;
+    background: none;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 18px;
+    transition: all 0.25s ease;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: #df009d;
+    background: #ffffff;
+    cursor: pointer;
+    transform: translate(5px, -1px);
+}
+
+.movie-poster-container {
+    position: absolute;
+    display: flex;
+}
+
+.movie-poster__img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.movie-poster-container__first {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 126, 184);
+}
+
+.logo-1 {
+    opacity: 15%;
+
+}
+
+.movie-poster-container__first :hover {
+    color: #df009d;
+    background: #ffffff;
+}
+
+.logo-2 {
+    width: 100%;
+    object-fit: cover;
+
+}
